@@ -1,0 +1,26 @@
+body{
+    background-color: #FAFAD2;
+}
+
+#capitulo{
+    color: #800000;
+    background-color: #DAA520;
+    font-size: 40px;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+#subcapitulo{
+    color: #8B0000;
+    font-size: 30px
+}
+
+#paragrafo{
+    font-size: 23px;
+}
+
+#proxima{
+    font-size: 20px;
+    border-right: 100;
+    float: right;
+}
