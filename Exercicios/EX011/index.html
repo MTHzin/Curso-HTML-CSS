@@ -9,10 +9,15 @@
 <body>
     <h1>Imagem dinãmica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="images/CJ300.jpg">
+        <source media="(max-width: 1000px)" srcset="images/CJ700.png">
+        <img src="images/CJ900.png" alt="CJ abismado">
+    </picture>
 
     <h1>Reproduzindo Áudio</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5</p>
-    <audio controls src="Arquivos/guanacast-33.mp3"autoplay></audio>
+    <audio controls src="../Arquivos/guanacast-33.mp3"autoplay></audio>
 
 
 </body>
