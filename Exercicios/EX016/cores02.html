@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizando Degrades</title>
+
+    <style>
+        body{
+            background-color: burlywood;
+        }
+
+        #conteudo{
+        background-image: linear-gradient(to right, #0000ff, rgb(107, 0, 107), rgb(181, 78, 218), rgb(130, 24, 237));
+        width: auto;
+        height: auto;
+        color: whitesmoke;
+        border-radius: 8px;
+        text-align: center;
+        
+        }
+
+        #titulopagina{
+        background-image: linear-gradient(to right, red, green,blue);
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        color: white; 
+        }
+        
+        .noticia{
+            background-image: linear-gradient(red 60%, green);
+            width: 250px;
+            height: 300px;
+            border-color: red;
+            border: red solid;
+            color: white;
+        }
+
+        .noticia img {
+            width: 100%;
+        }
+    </style>
+ </head>
+
+ <body>
+    <div id="titulopagina">
+        <h1>Realizando Degrades</h1>
+    </div>
+
+    <div id="conteudo">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi enim quasi accusantium vero ea corporis, eveniet aliquam modi repellendus placeat excepturi doloremque neque, eaque esse nihil laudantium consequatur blanditiis maxime.</p>
+    </div>
+
+
+    <div class="noticia">
+        <img src="https://veja.abril.com.br/wp-content/uploads/2016/05/bill-gates-01-original1.jpeg?quality=90&strip=info" alt="Imagem de bill gates">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nesciunt delectus esse eligendi eveniet hic rem optio, magni fugit neque illo sed architecto asperiores ipsum rerum cumque adipisci ex et?</p>
+    </div>
+
+ </body>
+ </html>
