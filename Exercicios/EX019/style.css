@@ -1,0 +1,31 @@
+
+
+body{
+    background-color: #8AA6A3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(1, 119, 1);
+}
+
+#principal{
+    background-color: #BFBFBF;
+    text-align: center;
+    color: #127369;
+}
+h2{
+    color: rgb(25, 179, 25);
+}
+
+.titulo{
+    background-color: #4C5958;
+    color: white;
+    padding: 5px;
+}
+
+.subtitulo{
+    color: white;
+    background-color: #10403B;
+    text-decoration: solid;
+}
