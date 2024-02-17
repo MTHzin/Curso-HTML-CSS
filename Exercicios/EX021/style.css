@@ -1,0 +1,25 @@
+h1{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid green;
+    padding: 10px;
+    outline: 10px dashed salmon;
+    margin: 10px auto 50px auto;
+}
+
+h1:hover{
+    color: red;
+    background-color: blue;
+    border: 10px dashed purple;
+    outline: 10px solid red;
+}
+
+a{
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+
+
+}
