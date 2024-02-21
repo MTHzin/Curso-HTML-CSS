@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(196, 196, 196);
+            box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.527);
+        }
+        nav > a{
+            color: black;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        #noticias{
+            background-color: rgb(196, 196, 196);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            text-align: justify;
+            width: 500px;
+            display: inline-block;
+            margin-right: 20px;
+            box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.26);
+        }
+
+        #artigos > h2{
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+
+        #artigos > img {
+            margin: auto;
+            width: 300px;
+            display: block;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+        }
+        article > aside {
+            text-align: center;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        footer > p {
+            margin: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article id="artigos">
+                <h2>Noticias de ultima hora</h2>
+                <img src="https://www2.camara.leg.br/agencia/imagens/imgNoticiaUpload1293792898393.jpg" alt="Bandeira do brasil">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quo libero beatae veritatis optio et illo tempore non itaque, voluptas, nesciunt repudiandae sint harum fugiat enim inventore pariatur molestiae tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem mollitia dolor dolores vitae autem velit tenetur alias iusto sapiente sequi sunt eos nemo temporibus laboriosam cumque, unde molestiae officia illum.</p>
+                <aside>Artigo escrito por Gustavo</aside>
+            </article>
+        </section>
+
+        <section id="noticias">
+            <article id="artigos">
+                <h2>Noticias de ultima hora</h2>
+                <img src="https://www2.camara.leg.br/agencia/imagens/imgNoticiaUpload1293792898393.jpg" alt="Bandeira do brasil">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quo libero beatae veritatis optio et illo tempore non itaque, voluptas, nesciunt repudiandae sint harum fugiat enim inventore pariatur molestiae tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem mollitia dolor dolores vitae autem velit tenetur alias iusto sapiente sequi sunt eos nemo temporibus laboriosam cumque, unde molestiae officia illum.</p>
+                <aside>Artigo escrito por Gustavo</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Matheus Antunes</p>
+    </footer>
+</body>
+</html>
