@@ -7,13 +7,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: #3DDC84;
+    background-color: #C5EBD6;
 }
 
 a{
     color: #02692f;
     text-decoration: solid;
-    font-weight: bold
+    font-weight: bold;
 }
 
 a:hover {
@@ -94,6 +94,10 @@ nav > a:hover{
         display: block;
         margin: auto;
         text-align: center;
+    }
+
+    .irina{
+        width: 750px
     }
     article > aside{
         background-color: #063D1E;
