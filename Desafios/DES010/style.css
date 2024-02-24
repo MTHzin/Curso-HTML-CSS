@@ -10,15 +10,6 @@ body{
     background-color: #C5EBD6;
 }
 
-a{
-    color: #02692f;
-    text-decoration: solid;
-    font-weight: bold;
-}
-
-a:hover {
-    color:#81e9b0
-}
 
 /* Header */
 
@@ -33,16 +24,21 @@ header > h1{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4.0em
+    font-size: 4.0em;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.404);
     }
 
 header > p{
     text-align: center;
-    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.404);
+    max-width: 500px;
 
 }
 nav{
     background-color: #063D1E;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.336)
 }
 nav > a{
     font-size: 0.9em;
@@ -50,6 +46,7 @@ nav > a{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+    transition: 0.3s;
 
 }
 nav > a:hover{
@@ -65,14 +62,17 @@ nav > a:hover{
     
     main{
         min-width: 400px;
-        max-width: 800px;
+        max-h: 800px;
         margin: auto;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+
     }
     article{
         background-color: white;
         margin: auto;
         padding: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
     }
 
     article > h1, h2{
@@ -90,10 +90,20 @@ nav > a:hover{
         text-align: justify;
         text-indent: 1.5em;
     }
-    img{
-        display: block;
-        margin: auto;
-        text-align: center;
+
+    a{
+        color: #02692f;
+        text-decoration: solid;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color:#81e9b0;
+        text-decoration: underline;
+    }
+
+    img {
+        width: 100%;
     }
 
     .irina{
@@ -146,7 +156,7 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 footer > p{
