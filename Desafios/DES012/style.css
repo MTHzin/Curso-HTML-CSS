@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 body{
     margin: 0;
@@ -27,4 +28,45 @@ header p, a{
     text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main p {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+
+div#fora{
+    background-image:url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+div#dentro{
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 400px;
+    width: 320px;
+    position: absolute;
+    left: 0%;
+    top: 17%;
+    color: white;
+    padding-left: 0;
+}
+div#fora2{
+    background-image:url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
 }
